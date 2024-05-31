@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Parameter.ShopperStack">
+        <methods>
+          <include name="shopperStack"/>
+        </methods>
+      </class> <!-- Parameter.ShopperStack -->
+      <class name="Parameter.DWSTask2">
+        <methods>
+          <include name="test2"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Parameter.DWSTask2 -->
+      <class name="Parameter.DWSTest1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="test1"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Parameter.DWSTest1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
